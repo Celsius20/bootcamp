@@ -6,6 +6,11 @@
         <name>Dashboard</name>
     </types>
     <types>
+	  <members>Recruiting_Reports</members>
+	  <members>Recruiting_Reports/Avg_Days_to_Hire_With_and_Without_Travel</members>
+	  <name>Report</name>
+    </types>
+    <types>
         <members>Admin</members>
         <name>Profile</name>
     </types>
