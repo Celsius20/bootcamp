@@ -28,6 +28,7 @@
     </types>
     <types>
 	<members>Position__c.Min_Pay_Rule</members>
+	<members>Position__c.Close_Date_Rule</members>
 	<name>ValidationRule</name>
     </types>
     <version>41.0</version>
