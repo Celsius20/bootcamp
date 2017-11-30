@@ -53,7 +53,7 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-      <enableFeeds>true</enableFeeds>
+    <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -137,47 +137,38 @@
                 <value>
                     <fullName>New</fullName>
                     <default>false</default>
-                    <label>New</label>
                 </value>
                 <value>
                     <fullName>Phone Screen</fullName>
                     <default>false</default>
-                    <label>Phone Screen</label>
                 </value>
                 <value>
                     <fullName>Schedule Interviews</fullName>
                     <default>false</default>
-                    <label>Schedule Interviews</label>
                 </value>
                 <value>
                     <fullName>Interviews Completed</fullName>
                     <default>false</default>
-                    <label>Interviews Completed</label>
                 </value>
                 <value>
                     <fullName>Offer Extended</fullName>
                     <default>false</default>
-                    <label>Offer Extended</label>
                 </value>
                 <value>
                     <fullName>Closed - Rejected</fullName>
                     <default>false</default>
-                    <label>Closed - Rejected</label>
                 </value>
                 <value>
                     <fullName>Closed - Accepted</fullName>
                     <default>false</default>
-                    <label>Closed - Accepted</label>
                 </value>
                 <value>
                     <fullName>Closed - Declined</fullName>
                     <default>false</default>
-                    <label>Closed - Declined</label>
                 </value>
                 <value>
                     <fullName>Closed - Position Closed</fullName>
                     <default>false</default>
-                    <label>Closed - Position Closed</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -198,37 +189,30 @@
                 <value>
                     <fullName>New</fullName>
                     <default>true</default>
-                    <label>New</label>
                 </value>
                 <value>
                     <fullName>Review Resume</fullName>
                     <default>false</default>
-                    <label>Review Resume</label>
                 </value>
                 <value>
                     <fullName>Phone Screen</fullName>
                     <default>false</default>
-                    <label>Phone Screen</label>
                 </value>
                 <value>
                     <fullName>Schedule Interviews</fullName>
                     <default>false</default>
-                    <label>Schedule Interviews</label>
                 </value>
                 <value>
                     <fullName>Extend an Offer</fullName>
                     <default>false</default>
-                    <label>Extend an Offer</label>
                 </value>
                 <value>
                     <fullName>Hired</fullName>
                     <default>false</default>
-                    <label>Hired</label>
                 </value>
                 <value>
                     <fullName>Rejected</fullName>
                     <default>false</default>
-                    <label>Rejected</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -289,5 +273,4 @@
         <searchResultsAdditionalFields>OWNER.LAST_NAME</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>

@@ -45,7 +45,7 @@
     <deploymentStatus>Deployed</deploymentStatus>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-      <enableFeeds>false</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>false</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -64,27 +64,22 @@
                 <value>
                     <fullName>High School</fullName>
                     <default>false</default>
-                    <label>High School</label>
                 </value>
                 <value>
                     <fullName>2 Year Degree</fullName>
                     <default>false</default>
-                    <label>2 Year Degree</label>
                 </value>
                 <value>
                     <fullName>BA/BS</fullName>
                     <default>false</default>
-                    <label>BA/BS</label>
                 </value>
                 <value>
                     <fullName>Graduate</fullName>
                     <default>false</default>
-                    <label>Graduate</label>
                 </value>
                 <value>
                     <fullName>PHD</fullName>
                     <default>false</default>
-                    <label>PHD</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -142,22 +137,18 @@
                 <value>
                     <fullName>50K-75K</fullName>
                     <default>false</default>
-                    <label>50K-75K</label>
                 </value>
                 <value>
                     <fullName>75K-90K</fullName>
                     <default>false</default>
-                    <label>75K-90K</label>
                 </value>
                 <value>
                     <fullName>90K-120K</fullName>
                     <default>false</default>
-                    <label>90K-120K</label>
                 </value>
                 <value>
                     <fullName>120K+</fullName>
                     <default>false</default>
-                    <label>120K+</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -187,5 +178,4 @@
     <searchLayouts/>
     <sharingModel>Private</sharingModel>
     <startsWith>Vowel</startsWith>
-    <visibility>Public</visibility>
 </CustomObject>

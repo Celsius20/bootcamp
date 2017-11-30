@@ -54,7 +54,7 @@
     <description>Represents an applicant who might apply for one or more positions</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-      <enableFeeds>false</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -117,27 +117,22 @@
                 <value>
                     <fullName>HS Diploma</fullName>
                     <default>false</default>
-                    <label>HS Diploma</label>
                 </value>
                 <value>
                     <fullName>BA/BS</fullName>
                     <default>false</default>
-                    <label>BA/BS</label>
                 </value>
                 <value>
                     <fullName>MA/MS/MBA</fullName>
                     <default>false</default>
-                    <label>MA/MS/MBA</label>
                 </value>
                 <value>
                     <fullName>Ph.D.</fullName>
                     <default>false</default>
-                    <label>Ph.D.</label>
                 </value>
                 <value>
                     <fullName>Post Doc</fullName>
                     <default>false</default>
-                    <label>Post Doc</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -315,5 +310,4 @@
         <searchResultsAdditionalFields>Phone__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>Private</sharingModel>
-    <visibility>Public</visibility>
 </CustomObject>
