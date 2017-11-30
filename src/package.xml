@@ -26,5 +26,9 @@
 	<members>Review__c</members>
         <name>CustomObject</name>
     </types>
+    <types>
+	<members>Position__c.Min_Pay_Rule</members>
+	<name>ValidationRule</name>
+    </types>
     <version>41.0</version>
 </Package>
