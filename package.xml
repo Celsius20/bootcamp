@@ -16,10 +16,6 @@
 	  <name>Report</name>
     </types>
     <types>
-        <members>Admin</members>
-        <name>Profile</name>
-    </types>
-    <types>
         <members>Applicant__c</members>
 	<members>Candidate__c</members>
 	<members>Employment_Website__c</members>
