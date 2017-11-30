@@ -43,5 +43,5 @@
         <members>Review__c.Rating_Scale_Rule</members>
         <name>ValidationRule</name>
     </types>
-    <version>41.0</version>
+    <version>38.0</version>
 </Package>
