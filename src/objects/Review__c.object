@@ -54,6 +54,7 @@
     <description>Represents an interviewer&apos;s assessment of a particular candidate</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
@@ -158,4 +159,5 @@
         <errorMessage>nvalid rating. Rating must be
 between 1 and 5.</errorMessage>
     </validationRules>
+    <visibility>Public</visibility>
 </CustomObject>

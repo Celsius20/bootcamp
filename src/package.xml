@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Applicant__c</members>
         <members>Candidate__c</members>
         <members>Employment_Website__c</members>
-        <members>Interviewer__c</members>
         <members>Job_Application__c</members>
         <members>Job_Posting__c</members>
         <members>Position__c</members>
-        <members>Review__c</members>
         <members>Review__c</members>
         <name>CustomObject</name>
     </types>
@@ -43,5 +40,5 @@
         <members>Review__c.Rating_Scale_Rule</members>
         <name>ValidationRule</name>
     </types>
-    <version>38.0</version>
+    <version>41.0</version>
 </Package>
