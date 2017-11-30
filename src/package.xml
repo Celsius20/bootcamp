@@ -31,5 +31,16 @@
 	<members>Review__c.Rating_Scale_Rule</members>
 	<name>ValidationRule</name>
     </types>
+    <types>
+	<members>Applicant__c</members>
+	<members>Candidate__c</members>
+	<members>Employment_Website__c</members>
+	<members>Interviewer__c</members>
+	<members>Job_Application__c</members>
+	<members>Job_Posting__c</members>
+	<members>Position__c</members>
+	<members>Review__c</members>
+	<name>CustomTab</name>
+    </types>
     <version>41.0</version>
 </Package>
