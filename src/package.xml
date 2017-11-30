@@ -11,6 +11,7 @@
 	  <members>Recruiting_Reports/Positions_Hired_in_Last_90_Days</members>
 	  <members>Recruiting_Reports/Positions_Open_Longer_Than_90_Days</members>
 	  <members>Recruiting_Reports/Recruiter_Status</members>
+	  <members>Recruiting_Reports/Open_Positions_by_Functional_Area</members>
 	  <name>Report</name>
     </types>
     <types>
