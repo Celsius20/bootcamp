@@ -21,6 +21,10 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -54,7 +58,7 @@
     <description>Information about a particular employment website</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-      <enableFeeds>false</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -106,5 +110,4 @@
     <searchLayouts/>
     <sharingModel>Read</sharingModel>
     <startsWith>Vowel</startsWith>
-    <visibility>Public</visibility>
 </CustomObject>

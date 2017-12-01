@@ -21,6 +21,10 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -54,7 +58,7 @@
     <description>Represents an interviewer&apos;s assessment of a particular candidate</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
-      <enableFeeds>false</enableFeeds>
+    <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <enableSearch>true</enableSearch>
@@ -158,5 +162,4 @@
         <errorMessage>nvalid rating. Rating must be
 between 1 and 5.</errorMessage>
     </validationRules>
-    <visibility>Public</visibility>
 </CustomObject>
