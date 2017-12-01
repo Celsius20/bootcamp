@@ -44,5 +44,9 @@
         <members>Unclaimed_Positions_Queue</members>
         <name>Queue</name>
     </types>
+    <types>
+        <members>Recruiter</members>
+        <name>Profile</name>
+    </types>
     <version>35.0</version>
 </Package>
