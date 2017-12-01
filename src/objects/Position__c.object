@@ -663,15 +663,6 @@ Close_Date__c - Open_Date__c )</formula>
         <filterScope>Everything</filterScope>
         <label>All</label>
     </listViews>
-    <listViews>
-        <fullName>Unclaimed_Positions_Queue_Position</fullName>
-        <filterScope>Queue</filterScope>
-        <label>Unclaimed Positions Queue</label>
-        <queue>Unclaimed_Positions_Queue</queue>
-        <sharedTo>
-            <allInternalUsers></allInternalUsers>
-        </sharedTo>
-    </listViews>
     <nameField>
         <label>Position Name</label>
         <trackFeedHistory>false</trackFeedHistory>
