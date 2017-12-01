@@ -40,5 +40,9 @@
         <members>Review__c.Rating_Scale_Rule</members>
         <name>ValidationRule</name>
     </types>
+    <types>
+        <members>Unclaimed_Positions_Queue</members>
+        <name>Queue</name>
+    </types>
     <version>35.0</version>
 </Package>
