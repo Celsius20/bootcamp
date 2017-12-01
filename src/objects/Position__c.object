@@ -44,7 +44,6 @@
         <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
-    <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>Position</compactLayoutAssignment>
     <compactLayouts>
         <fullName>Position</fullName>
@@ -61,7 +60,6 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
-    <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <fields>
@@ -660,8 +658,22 @@ Close_Date__c - Open_Date__c )</formula>
     <label>Position</label>
     <listViews>
         <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Hiring_Manager__c</columns>
+        <columns>Status__c</columns>
+        <columns>OWNER.ALIAS</columns>
         <filterScope>Everything</filterScope>
         <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <listViews>
+        <fullName>Unclaimed_Positions_Queue_Position</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Unclaimed Positions Queue</label>
+        <queue>Unclaimed_Positions_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
     </listViews>
     <nameField>
         <label>Position Name</label>

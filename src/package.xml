@@ -50,5 +50,9 @@
         <members>Review__c.Rating_Scale_Rule</members>
         <name>ValidationRule</name>
     </types>
-    <version>35.0</version>
+    <types>
+        <members>Position__c</members>
+        <name>Workflow</name>
+    </types>
+    <version>31.0</version>
 </Package>

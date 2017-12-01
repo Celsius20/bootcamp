@@ -5,7 +5,6 @@
     <backgroundStartColor>#FFFFFF</backgroundStartColor>
     <dashboardType>SpecifiedUser</dashboardType>
     <description>A snapshot of open positions, job applications, frequent interviewers, and recruiter performance.</description>
-    <isGridLayout>false</isGridLayout>
     <leftSection>
         <columnSize>Medium</columnSize>
         <components>
