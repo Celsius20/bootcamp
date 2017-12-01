@@ -26,6 +26,14 @@
         <name>Dashboard</name>
     </types>
     <types>
+        <members>Recruiter</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Unclaimed_Positions_Queue</members>
+        <name>Queue</name>
+    </types>
+    <types>
         <members>Recruiting_Reports</members>
         <members>Recruiting_Reports/Avg_Days_to_Hire_With_and_Without_Travel</members>
         <members>Recruiting_Reports/Open_Positions_by_Functional_Area</members>
@@ -39,14 +47,6 @@
         <members>Position__c.Min_Pay_Rule</members>
         <members>Review__c.Rating_Scale_Rule</members>
         <name>ValidationRule</name>
-    </types>
-    <types>
-        <members>Unclaimed_Positions_Queue</members>
-        <name>Queue</name>
-    </types>
-    <types>
-        <members>Recruiter</members>
-        <name>Profile</name>
     </types>
     <version>35.0</version>
 </Package>
