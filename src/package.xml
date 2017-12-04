@@ -106,6 +106,16 @@
         <name>Queue</name>
     </types>
     <types>
+        <members>Candidate__c.New_Application</members>
+        <members>Employment_Website__c.New_Posting</members>
+        <members>Job_Application__c.New_Review</members>
+        <members>New_Candidate</members>
+        <members>New_IT_Position</members>
+        <members>New_Standard_Position</members>
+        <members>Position__c.New_Posting</members>
+        <name>QuickAction</name>
+    </types>
+    <types>
         <members>Position__c.IT_Position</members>
         <members>Position__c.Standard_Position</members>
         <members>Positions_with_Job_Applications_with_Reviews</members>
@@ -143,10 +153,6 @@
         <members>Position__c.Min_Pay_Rule</members>
         <members>Review__c.Rating_Scale_Rule</members>
         <name>ValidationRule</name>
-    </types>
-    <types>
-        <members>Position__c</members>
-        <name>Workflow</name>
     </types>
     <types>
         <members>Position__c.Email_New_Position_Alert</members>
