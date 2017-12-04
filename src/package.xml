@@ -150,6 +150,7 @@
         <name>Report</name>
     </types>
     <types>
+        <members> SW_Engineer</members>
         <members>CEO1831445</members>
         <members>Director</members>
         <members>Director_QA</members>
@@ -157,6 +158,7 @@
         <members>QA_Engineer</members>
         <members>Recruiter183149</members>
         <members>RecruitingManager</members>
+        <members>SW_Dev_Manager</members>
         <members>VP_of_Development</members>
         <members>VP_of_Services</members>
         <members>VPofHumanResources183141</members>
