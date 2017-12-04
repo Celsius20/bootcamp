@@ -6,6 +6,10 @@
         <name>Appmenu</name>
     </types>
     <types>
+        <members>Position__c.Approve_New_Position</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
         <members>Case.Standard Case Assignment</members>
         <name>AssignmentRule</name>
     </types>
@@ -144,6 +148,17 @@
         <members>Recruiting_Reports/Positions_Open_Longer_Than_90_Days</members>
         <members>Recruiting_Reports/Recruiter_Status</members>
         <name>Report</name>
+    </types>
+    <types>
+        <members>CEO1831445</members>
+        <members>Director</members>
+        <members>Director_QA</members>
+        <members>Product_Manager</members>
+        <members>QA_Engineer</members>
+        <members>RecruitingManager</members>
+        <members>VP_of_Development</members>
+        <members>VP_of_Services</members>
+        <name>Role</name>
     </types>
     <types>
         <members>Applicant__c.Share_Applicants_Between_Recruiters</members>
