@@ -76,6 +76,7 @@
         <members>Applicant__c-Applicant Layout</members>
         <members>Candidate__c-Candidate Layout</members>
         <members>Employment_Website__c-Employment Website Layout</members>
+        <members>Global-Recruiter Layout</members>
         <members>Interviewer__c-Interviewer Layout</members>
         <members>Job_Application__c-Job Application Layout</members>
         <members>Job_Posting__c-Job Posting Layout</members>

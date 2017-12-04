@@ -311,6 +311,9 @@
         <layout>Employment_Website__c-Employment Website Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Global-Recruiter Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Interviewer__c-Interviewer Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
