@@ -112,8 +112,10 @@
         <name>Queue</name>
     </types>
     <types>
+        <members>Candidate__c.New_Application</members>
         <members>Employment_Website__c.New_Posting</members>
         <members>Job_Application__c.New_Review</members>
+        <members>New_Application</members>
         <members>New_Candidate</members>
         <members>New_IT_Position</members>
         <members>New_Standard_Position</members>
