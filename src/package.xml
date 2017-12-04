@@ -150,10 +150,12 @@
         <name>Report</name>
     </types>
     <types>
+        <members>CEO1831445</members>
         <members>Director</members>
         <members>Director_QA</members>
         <members>Product_Manager</members>
         <members>QA_Engineer</members>
+        <members>Recruiter183149</members>
         <members>RecruitingManager</members>
         <members>VP_of_Development</members>
         <members>VP_of_Services</members>
