@@ -48,6 +48,12 @@
         <name>Dashboard</name>
     </types>
     <types>
+        <members>sample_templates</members>
+        <members>sample_templates/Recruiting_App_New_Position_Alert</members>
+        <members>sample_templates/Recruiting_App_New_Position_Requires_Approval</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
         <members>Assign_Position_to_Recruiter</members>
         <members>New_Position_Notification</members>
         <members>Recruiter_Tasks-3</members>
@@ -106,7 +112,6 @@
         <name>Queue</name>
     </types>
     <types>
-        <members>Candidate__c.New_Application</members>
         <members>Employment_Website__c.New_Posting</members>
         <members>Job_Application__c.New_Review</members>
         <members>New_Candidate</members>
