@@ -606,7 +606,6 @@ Close_Date__c - Open_Date__c )</formula>
                 <fullName>Closed - Canceled</fullName>
                 <default>false</default>
             </picklistValues>
-            <restrictedPicklist>true</restrictedPicklist>
             <sorted>false</sorted>
         </picklist>
         <required>false</required>
@@ -666,6 +665,15 @@ Close_Date__c - Open_Date__c )</formula>
         <label>All</label>
         <language>en_US</language>
     </listViews>
+    <listViews>
+        <fullName>Unclaimed_Positions_Queue_Position</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Unclaimed Positions Queue</label>
+        <queue>Unclaimed_Positions_Queue</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
     <nameField>
         <label>Position Name</label>
         <trackFeedHistory>false</trackFeedHistory>
@@ -707,11 +715,7 @@ Close_Date__c - Open_Date__c )</formula>
             <picklist>Functional_Area__c</picklist>
             <values>
                 <fullName>Information Technology</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Miscellaneous</fullName>
-                <default>false</default>
+                <default>true</default>
             </values>
         </picklistValues>
         <picklistValues>
@@ -1338,6 +1342,20 @@ Close_Date__c - Open_Date__c )</formula>
 ISPICKVAL(Status__c , &quot;Closed - Not Approved&quot;))</errorConditionFormula>
         <errorMessage>Close Date must be specified when
 Status is set to &apos;Closed.&apos;</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Closed_Date_Greater_Open_Date</fullName>
+        <active>true</active>
+        <description>Closed Date must not be less than Open Date</description>
+        <errorConditionFormula>Close_Date__c  &lt;  Open_Date__c</errorConditionFormula>
+        <errorMessage>Closed Date must not be less than Open Date</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Min_Pay_Greater_Zero</fullName>
+        <active>true</active>
+        <description>Minimum Pay must be greater than zero.</description>
+        <errorConditionFormula>Min_Pay__c &lt;= 0</errorConditionFormula>
+        <errorMessage>Minimum Pay must be greater than zero.</errorMessage>
     </validationRules>
     <validationRules>
         <fullName>Min_Pay_Rule</fullName>

@@ -64,7 +64,7 @@
     <fields>
         <fullName>Average_Rating__c</fullName>
         <externalId>false</externalId>
-        <formula>Total_Rating__c / Number_of_Reviews__c</formula>
+        <formula>IF( NULLVALUE(Number_of_Reviews__c, 0) != 0 , Total_Rating__c  / Number_of_Reviews__c, 0)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Average Rating</label>
         <precision>18</precision>

@@ -179,6 +179,8 @@
     </types>
     <types>
         <members>Position__c.Close_Date_Rule</members>
+        <members>Position__c.Closed_Date_Greater_Open_Date</members>
+        <members>Position__c.Min_Pay_Greater_Zero</members>
         <members>Position__c.Min_Pay_Rule</members>
         <members>Review__c.Rating_Scale_Rule</members>
         <name>ValidationRule</name>
